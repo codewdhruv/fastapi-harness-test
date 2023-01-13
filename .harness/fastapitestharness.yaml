@@ -14,7 +14,6 @@ pipeline:
     - stage:
         name: FastAPI CI
         identifier: FastAPI_CI
-        description: ""
         type: CI
         spec:
           cloneCodebase: true
